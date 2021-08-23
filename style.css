@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300:400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    background-color: #3f51b5;
+}
+
+.pricing {
+    width: 100%;
+    max-width: 980px;
+    padding: 5rem 0.875rem;
+    margin: 0 auto;
+}
+
+.pricing__top {
+    color: #fff;
+    text-align:  center;
+}
+
+
+.pricing__top h1 {
+    margin: 0 8rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.3rem;
+}
+
+.pricing__top p {
+    margin: 0 8rem;
+    opacity: 0.7;
+}
+
+.pricing__items {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+
+.pricing__item {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.pricing__item h3 {
+    color: #29d9c2;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.pricingItem__price {
+
+    padding: 2rem 0;
+    font-weight: bold;
+}
+
+.pricingItem__price .price {
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+}
+
+.pricingItem__price .dollar {
+    font-size: 2rem;
+    vertical-align: top;
+}
+
+.pricingItem__price .period {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.pricingItem__info {
+    list-style: none;
+    color: gray;
+    padding-bottom: 2;
+}
+
+.pricingItem__info {
+    list-style: none;
+    color: gray;
+    padding-bottom: 2rem;
+
+}
+
+.pricingItem__info li {
+    margin-bottom: 0.3rem;
+}
+
+.pricing__item button {
+    background-color: #29d9c2;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 2rem;
+    color: #fff;
+}
+
+.pricing__item button:hover {
+    background-color: #111;
+    color:#fff;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .pricing__items {
+        flex-direction: column;
+    }
+
+    .pricing__top h1 {
+        flex-direction: column;
+    }
+
+    .pricing__top p {
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+}
